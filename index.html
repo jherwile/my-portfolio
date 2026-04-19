@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Job Experience & Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; }
+        .card { background-color: #1e293b; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); border-color: #38bdf8; }
+    </style>
+</head>
+<body class="font-sans leading-relaxed">
+
+    <header class="py-20 px-6 text-center">
+        <h1 class="text-5xl font-extrabold text-white mb-4">Your Name</h1>
+        <p class="text-xl text-blue-400">Professional Title / Specialization</p>
+        <div class="mt-6 flex justify-center gap-4">
+            <a href="mailto:email@example.com" class="bg-blue-600 hover:bg-blue-500 px-6 py-2 rounded-full font-bold">Contact Me</a>
+            <a href="#" class="border border-slate-600 hover:bg-slate-800 px-6 py-2 rounded-full font-bold">LinkedIn</a>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6">
+        
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold border-b-2 border-blue-500 pb-2 mb-8">Job Experience</h2>
+            
+            <div class="space-y-8">
+                <div class="border-l-4 border-slate-700 pl-6">
+                    <h3 class="text-xl font-bold">Senior Role Name</h3>
+                    <p class="text-blue-400">Company Name | 2021 - Present</p>
+                    <p class="mt-2 text-slate-400">Brief summary of your impact. Mention a key achievement like "Increased efficiency by 20%."</p>
+                </div>
+
+                <div class="border-l-4 border-slate-700 pl-6">
+                    <h3 class="text-xl font-bold">Previous Role</h3>
+                    <p class="text-blue-400">Company Name | 2018 - 2021</p>
+                    <p class="mt-2 text-slate-400">Description of responsibilities and core technologies used during this tenure.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold border-b-2 border-blue-500 pb-2 mb-8">Featured Projects</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="card p-6 rounded-xl border border-slate-700">
+                    <h3 class="text-xl font-bold mb-2">Project Alpha</h3>
+                    <p class="text-slate-400 mb-4">A brief description of what you built and the problem it solved.</p>
+                    <span class="text-xs font-mono bg-slate-800 px-2 py-1 rounded">React</span>
+                    <span class="text-xs font-mono bg-slate-800 px-2 py-1 rounded">Python</span>
+                </div>
+                <div class="card p-6 rounded-xl border border-slate-700">
+                    <h3 class="text-xl font-bold mb-2">Project Beta</h3>
+                    <p class="text-slate-400 mb-4">Focus on the outcome. Did it automate a task? Save money? Serve users?</p>
+                    <span class="text-xs font-mono bg-slate-800 px-2 py-1 rounded">AWS</span>
+                    <span class="text-xs font-mono bg-slate-800 px-2 py-1 rounded">SQL</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-10 text-slate-500 border-t border-slate-800">
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
